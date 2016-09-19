@@ -6,8 +6,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: column;
+}
+
+/*.item-1 {
+    order: 1;
 }
 
 .item-2 {
-    margin-right: auto;
+    order: 2;
+}*/
+
+.item-5 {
+    order: -1;
+}
+
+.item-1 {
+    order: -2;
 }
