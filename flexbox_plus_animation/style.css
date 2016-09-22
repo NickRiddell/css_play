@@ -1,0 +1,23 @@
+
+.main {
+    -moz-column-gap: 3em;
+    -webkit-column-gap: 3em;
+    -column-gap: 3em;
+    -moz-column-rule: 2px dotted #070641;
+    -webkit-column-rule: 2px dotted #070641;
+    column-rule: 2px dotted #070641;
+    -moz-columns: 250px 3;
+    -webkit-columns: 250px 3;
+    columns: 250px 3;
+}
+
+img {
+    display: block;
+    margin: 1.5em 0;
+    max-width: 100%;
+}
+
+h1 {
+    -webkit-column-span: all;
+    column-span: all;
+}
